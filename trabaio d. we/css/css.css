@@ -1,0 +1,47 @@
+body
+{
+  background-image: url("../img/igreja.jpg" );
+  background-size: cover;
+  
+  
+  
+  
+}
+
+.navbar
+
+{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    text-decoration: none; 
+    color: black;
+    font-size: 50px;
+
+
+}
+
+.navbar a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar a:hover
+{
+    color: gray;
+    
+}
+
+.image
+{
+    text-align: center;
+
+}
+
+.txt
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+}
+
