@@ -1,3 +1,17 @@
+
+@keyframes animacao
+{
+    from {background-color: purple;}
+    to {background-color: yellow;}
+
+}
+
+
+
+
+
+
+
 body
 {
   background-image: url("../img/igreja.jpg" );
@@ -57,10 +71,178 @@ body
 .imggg
 {
     color: white;
+    text-align: center;
 }
 .videodoytnahome
 {
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
 }
 
+.carlos
+{
+    width: 500px;
+    background-color: purple;
+    animation-name: animacao;
+    animation-duration: 2s;
+}
+
+#mapa
+{
+   position: absolute;
+   left: 950px;
+   top: 100px;
+   padding: 12px;
+   background-color: gray;
+   border-radius: 10px;
+   opacity: 70%;
+}
+
+#textinembaixodomapa
+{
+    color: white;
+    position: absolute;
+    right: 85px;
+    bottom: 220px;
+}
+
+#santa
+{
+    position: absolute;
+    left: 15px;
+    padding: 2px;
+    background-color:black;
+    top: 120px;
+
+}
+
+.desc_santa 
+{
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    top: 35px;
+    left: 500px;
+    
+
+    
+}
+
+#parke_ne_vida
+{
+    position: absolute;
+    top:430px;
+    left: 15px;
+    padding: 2px;
+    background-color: black;
+
+}
+
+.desc_park
+{
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    top: 45px;
+    left: 500px;
+}
+
+.musiquinha
+{
+    position: absolute;
+    top: 25px;
+}
+
+#desca
+{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    color: white;
+}
+
+.intr
+{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+}
+
+.ain
+{
+    background-color: black;
+}
+
+#a
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+#b
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#c
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#d
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+#e
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+#f
+{
+    color: black;
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.txt_hist
+{
+   display: inline-flex;
+}
+
+#fhist
+{
+    color: black;
+    position: fixed;
+    left: 11px;
+}
